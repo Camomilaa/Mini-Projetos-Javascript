@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(32, 32, 32);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+body h1{
+    margin-top: 10rem;
+}
+
+.busca{
+    margin-top: 1rem;
+}
+
+.busca input{
+    height: 2.5rem;
+    border-radius: 0.4rem;
+    width: 14rem;
+    border: 0px;
+    padding: 1rem;
+}
+
+.busca button{
+    height: 2.5rem;
+    width: 3rem;
+    border-radius: 0.4rem;
+    border: 0px;
+    color: #fff;
+    background-color: rgb(53, 53, 53);
+    margin-left: 1rem;
+}
+
+.aviso{
+    margin-top: 2rem;
+}
+
+.cidade-info{
+    margin-top: 1rem;
+    border: 1px solid #fff;
+    border-radius: 0.3rem;
+    width: 18.3rem;
+    background-color: rgb(19, 19, 19);
+    text-align: center;
+    padding: 1rem;
+    display: none;
+}
+
+.nome-cidade{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.clima-info{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.temperatura{
+    margin-left: -1rem;
+}
+
+.tempTitulo{
+    color: gray;
+    font-size: 14px;
+}
+
+.temp, .vent{
+    font-size: 20px;
+}
+
+.vent span{
+    font-size: 12px;
+}
+
+.ventoPonto {
+    width: 15px;
+    height: 1px;
+    background-color: #FFF;
+    transform-origin: left;
+}
+
+.ventoArea {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
